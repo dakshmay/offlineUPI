@@ -1,4 +1,4 @@
-# 📡 UPI Offline Mesh — P2P Mesh-Routed Payment Simulator
+# 📡 UPI Offline Mesh — P2P Mesh-Routed Payment Simulator (https://offlineupi-production-0102.up.railway.app/)
 
 A Spring Boot & Java 17 backend and interactive real-time visualizer that demonstrates **offline UPI payments routed through a Bluetooth-style peer-to-peer (P2P) mesh network**.
 
