@@ -2,7 +2,7 @@
 
 A Spring Boot & Java 17 backend and interactive real-time visualizer that demonstrates **offline UPI payments routed through a Bluetooth-style peer-to-peer (P2P) mesh network**.
 
-Imagine you are in a basement with zero internet connectivity. You want to send your friend ₹500. Your phone cryptographically wraps and encrypts the payment instruction, then broadcasts it to nearby devices. The packet hops device-to-device across a local Bluetooth mesh. Eventually, *some* device in the mesh walks outside, gets cellular coverage (4G/5G), and uploads it to the backend server. The backend decrypts, deduplicates, verifies freshness, and settles the payment.
+Imagine you are in a basement with zero internet connectivity. You want to send your friend $500. Your phone cryptographically wraps and encrypts the payment instruction, then broadcasts it to nearby devices. The packet hops device-to-device across a local Bluetooth mesh. Eventually, *some* device in the mesh walks outside, gets cellular coverage (4G/5G), and uploads it to the backend server. The backend decrypts, deduplicates, verifies freshness, and settles the payment.
 
 This repository implements the **sovereign backend processing pipeline**, an **in-memory database ledger**, and a **software simulator** to demo the entire multi-hop flow on a single dashboard.
 
